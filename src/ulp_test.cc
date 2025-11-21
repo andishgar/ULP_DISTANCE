@@ -58,7 +58,7 @@ TYPED_TEST(ULPTest, MyVersion)
     this->MyVersion();
 }
 
-TEST(F, W)
+TEST(ULP, AroundPower2)
 {
     double a_raw = 4;
     double a = std::bit_cast<double>(std::bit_cast<int64_t>(a_raw) - 1);
